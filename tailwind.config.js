@@ -10,14 +10,7 @@ export default {
       serif: ['Playfair Display', 'serif'],
       sans: ['Poppins', 'sans-serif'],
     },
-    colors: {
-      'gray': '#5F6366',
-      'blue': '#4D6D9A',
-      'light-purple': '#86B3D1',
-      'light-blue': '#99CED3',
-      'pink': '#EDB5Bf',
-      'white': '#e2e8f0'
-    },
+    
     screens: {
       'sm': '480px',
       'md': '768px',
