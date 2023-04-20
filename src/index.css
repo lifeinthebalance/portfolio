@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 *,
 *::before,
 *::after {
@@ -60,9 +59,3 @@ textarea,
 select {
   font: inherit;
 }
-
-
-.center {
-  @apply md:absolute md:top-[50%] md:translate-x-[-50%] md:translate-y-[-50%] md:left-[50%] md:w-full
-}
-

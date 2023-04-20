@@ -4,10 +4,10 @@ import Main from "./components/Main";
 const App: React.FC = () => {
   return (
     <>
-    <Header />
-    <Main />
+      <Header />
+      <Main />
     </>
-  )
-}
+  );
+};
 
 export default App;
