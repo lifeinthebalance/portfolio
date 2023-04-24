@@ -1,22 +1,14 @@
-const Projects: React.FC = () => {
+import { ReactElement } from "react";
+
+const Projects: React.FC = (): ReactElement => {
   return (
-    <section
-      className="mx-auto  flex flex-col
-        items-center gap-10 justify-self-center sm:max-w-md sm:flex-row sm:flex-wrap sm:justify-center md:mx-0"
-    >
-      <div className="rounded-xl border border-transparent  px-20 py-11 transition hover:scale-110 hover:border-gray-900">
-        TBD
-      </div>
-      <div className="rounded-xl border border-transparent  px-20 py-11 transition hover:scale-110 hover:border-gray-900">
-        TBD
-      </div>
-      <div className="rounded-xl border border-transparent  px-20 py-11 transition hover:scale-110 hover:border-gray-900">
-        TBD
-      </div>
-      <div className="rounded-xl border border-transparent px-20 py-11 transition hover:scale-110 hover:border-gray-900">
-        TBD
-      </div>
-    </section>
+    <main className="flex min-h-screen items-center justify-center bg-red-400 text-center">
+      <section className=" max-w-[60%] grow">
+        <div className=" bg-blue-400 py-20">TBD</div>
+        <div className=" bg-blue-400 py-20">TBD</div>
+        <div className=" bg-blue-400 py-20 ">TBD</div>
+      </section>
+    </main>
   );
 };
 

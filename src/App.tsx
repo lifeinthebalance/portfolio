@@ -1,11 +1,14 @@
+import { ReactElement } from "react";
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Projects from "./components/Projects";
+// import Info from "./components/Info";
+// import Main from "./components/Main";
 
-const App: React.FC = () => {
+const App: React.FC = (): ReactElement => {
   return (
     <>
       <Header />
-      <Main />
+      <Projects />
     </>
   );
 };
